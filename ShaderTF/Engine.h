@@ -39,7 +39,10 @@ public:
 	Mesh			mBulbMesh;
 	Mesh			mTableMesh;
 	Mesh			mTeapotMesh;
+	Mesh			mIronMan;
 	Mesh			mSphereMesh[8];
+	GLuint			mIronManDiffuse;
+	GLuint			mIronmanSpecular;
 
 	//Screen Capture
 	bool			m_bCapture;
@@ -52,6 +55,7 @@ public:
 	CShader			m_lightShader;
 	CShader			m_normalMapShader;
 	CShader			m_lambertShader;
+	CShader			mIronmanShader;
 
 	float			m_fAngle;
 	float			m_fTime;
@@ -62,5 +66,7 @@ public:
 	void	SphereScene();
 	void	CreateScene();
 
+private:
+	GLuint	LoadTexImage(char* texFile);
 };
 

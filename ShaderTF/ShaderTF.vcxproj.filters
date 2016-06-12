@@ -75,5 +75,11 @@
     <None Include="toon.vert">
       <Filter>GLSL</Filter>
     </None>
+    <None Include="ironman.vert">
+      <Filter>GLSL</Filter>
+    </None>
+    <None Include="ironman.frag">
+      <Filter>GLSL</Filter>
+    </None>
   </ItemGroup>
 </Project>

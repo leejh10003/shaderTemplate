@@ -87,6 +87,8 @@
     <ClInclude Include="Vertex.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ironman.frag" />
+    <None Include="ironman.vert" />
     <None Include="toon.frag" />
     <None Include="toon.vert" />
     <None Include="toon2.frag" />

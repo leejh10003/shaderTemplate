@@ -494,7 +494,7 @@ void Mesh::ScaleMesh(glm::vec3 scale)
 
 void Mesh::RenderTexMesh()
 {
-	glEnable(GL_TEXTURE_2D);
+	//glEnable(GL_TEXTURE_2D);
 
 	glBegin(GL_TRIANGLES);
 	for(int index = 0; index < (int)mFaces.size(); index++)
